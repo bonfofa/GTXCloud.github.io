@@ -764,7 +764,6 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  height: auto;
   margin: -926px 320px 60px auto;
 }
 
@@ -844,7 +843,6 @@
   .u-section-3 .u-group-5 {
     margin-top: -952px;
     margin-right: 135px;
-    height: auto;
   }
 
   .u-section-3 .embed-responsive-1 {
@@ -1726,6 +1724,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  height: auto;
   margin: -515px auto 0;
 }
 
@@ -1822,12 +1821,12 @@
   font-size: 0.875rem;
   letter-spacing: 1px;
   transition-duration: 0.5s;
-  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 61px auto 0;
 }
 
@@ -1879,11 +1878,8 @@
   transition-duration: 0.5s;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: 48px auto 0;
+  margin: 42px auto 0;
 }
 
 .u-section-5 .u-layout-cell-3 {
@@ -1943,9 +1939,6 @@
   transition-duration: 0.5s;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 54px auto 0;
 }
@@ -1974,6 +1967,10 @@
 @media (max-width: 1199px) {
   .u-section-5 .u-sheet-1 {
     min-height: 871px;
+  }
+
+  .u-section-5 .u-group-1 {
+    height: auto;
   }
 
   .u-section-5 .u-text-2 {
@@ -2043,6 +2040,12 @@
     margin-right: 11px;
   }
 
+  .u-section-5 .u-btn-2 {
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
+  }
+
   .u-section-5 .u-layout-cell-3 {
     min-height: 606px;
   }
@@ -2065,6 +2068,12 @@
   .u-section-5 .u-text-12 {
     margin-left: 10px;
     margin-right: 11px;
+  }
+
+  .u-section-5 .u-btn-3 {
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
   }
 }
 
